@@ -30,7 +30,9 @@ def jkhkj():
             font=font)
             img.save('{}.jpeg'.format(j['name']))
         return render_template('info.html')
-app.run()
+
+if __name__=='__main__':
+    app.run()
 
 
 # In[ ]:
