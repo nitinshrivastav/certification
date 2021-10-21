@@ -6,7 +6,6 @@
 
 from PIL import Image, ImageDraw, ImageFont
 import pandas as pd
-import os
 from flask import Flask,render_template,request
 app=Flask(__name__)
 @app.route('/')
